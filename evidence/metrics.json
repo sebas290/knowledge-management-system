@@ -1,0 +1,1344 @@
+{
+  "corpus": {
+    "documents": 60,
+    "categories": {
+      "FAQ": 15,
+      "Minutes": 15,
+      "Policy/Process": 15,
+      "Support/Incidents": 15
+    }
+  },
+  "classification": {
+    "setup": "5-fold stratified cross-validation on 60 documents (text only)",
+    "classes": [
+      "FAQ",
+      "Minutes",
+      "Policy/Process",
+      "Support/Incidents"
+    ],
+    "per_class": [
+      {
+        "category": "FAQ",
+        "precision": 0.875,
+        "recall": 0.9333333333333333,
+        "f1": 0.9032258064516129,
+        "support": 15
+      },
+      {
+        "category": "Minutes",
+        "precision": 0.7894736842105263,
+        "recall": 1.0,
+        "f1": 0.8823529411764706,
+        "support": 15
+      },
+      {
+        "category": "Policy/Process",
+        "precision": 0.9166666666666666,
+        "recall": 0.7333333333333333,
+        "f1": 0.8148148148148148,
+        "support": 15
+      },
+      {
+        "category": "Support/Incidents",
+        "precision": 1.0,
+        "recall": 0.8666666666666667,
+        "f1": 0.9285714285714286,
+        "support": 15
+      }
+    ],
+    "macro": {
+      "precision": 0.8952850877192983,
+      "recall": 0.8833333333333333,
+      "f1": 0.8822412477535817
+    },
+    "accuracy": 0.8833333333333333,
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        1,
+        3,
+        11,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        13
+      ]
+    ],
+    "errors": [
+      {
+        "id": "DOC004",
+        "title": "Production Change Management Procedure",
+        "true": "Policy/Process",
+        "predicted": "Minutes"
+      },
+      {
+        "id": "DOC005",
+        "title": "Backup and Information Retention Policy",
+        "true": "Policy/Process",
+        "predicted": "Minutes"
+      },
+      {
+        "id": "DOC018",
+        "title": "Incident: Nightly database backup failure",
+        "true": "Support/Incidents",
+        "predicted": "Minutes"
+      },
+      {
+        "id": "DOC033",
+        "title": "Security Patch and Update Management Procedure",
+        "true": "Policy/Process",
+        "predicted": "Minutes"
+      },
+      {
+        "id": "DOC034",
+        "title": "Cloud Storage and File Sharing Policy",
+        "true": "Policy/Process",
+        "predicted": "FAQ"
+      },
+      {
+        "id": "DOC039",
+        "title": "Ticket: Software installation blocked by administrator permissions",
+        "true": "Support/Incidents",
+        "predicted": "FAQ"
+      },
+      {
+        "id": "DOC044",
+        "title": "FAQ: How do I share confidential files securely?",
+        "true": "FAQ",
+        "predicted": "Policy/Process"
+      }
+    ]
+  },
+  "classification_with_title": {
+    "setup": "5-fold stratified cross-validation on 60 documents (title + text)",
+    "classes": [
+      "FAQ",
+      "Minutes",
+      "Policy/Process",
+      "Support/Incidents"
+    ],
+    "per_class": [
+      {
+        "category": "FAQ",
+        "precision": 0.875,
+        "recall": 0.9333333333333333,
+        "f1": 0.9032258064516129,
+        "support": 15
+      },
+      {
+        "category": "Minutes",
+        "precision": 0.8666666666666667,
+        "recall": 0.8666666666666667,
+        "f1": 0.8666666666666667,
+        "support": 15
+      },
+      {
+        "category": "Policy/Process",
+        "precision": 0.8571428571428571,
+        "recall": 0.8,
+        "f1": 0.8275862068965517,
+        "support": 15
+      },
+      {
+        "category": "Support/Incidents",
+        "precision": 0.9333333333333333,
+        "recall": 0.9333333333333333,
+        "f1": 0.9333333333333333,
+        "support": 15
+      }
+    ],
+    "macro": {
+      "precision": 0.8830357142857144,
+      "recall": 0.8833333333333333,
+      "f1": 0.8827030033370411
+    },
+    "accuracy": 0.8833333333333333,
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        13,
+        1,
+        1
+      ],
+      [
+        1,
+        2,
+        12,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        14
+      ]
+    ],
+    "errors": [
+      {
+        "id": "DOC004",
+        "title": "Production Change Management Procedure",
+        "true": "Policy/Process",
+        "predicted": "Minutes"
+      },
+      {
+        "id": "DOC030",
+        "title": "Minutes: Storage capacity and backup review",
+        "true": "Minutes",
+        "predicted": "Support/Incidents"
+      },
+      {
+        "id": "DOC033",
+        "title": "Security Patch and Update Management Procedure",
+        "true": "Policy/Process",
+        "predicted": "Minutes"
+      },
+      {
+        "id": "DOC034",
+        "title": "Cloud Storage and File Sharing Policy",
+        "true": "Policy/Process",
+        "predicted": "FAQ"
+      },
+      {
+        "id": "DOC039",
+        "title": "Ticket: Software installation blocked by administrator permissions",
+        "true": "Support/Incidents",
+        "predicted": "FAQ"
+      },
+      {
+        "id": "DOC044",
+        "title": "FAQ: How do I share confidential files securely?",
+        "true": "FAQ",
+        "predicted": "Policy/Process"
+      },
+      {
+        "id": "DOC054",
+        "title": "Minutes: Approval of the mobile device policy",
+        "true": "Minutes",
+        "predicted": "Policy/Process"
+      }
+    ]
+  },
+  "retrieval": {
+    "setup": "25 labeled queries, top-5; relevance judged by the team (data/eval/retrieval_queries.csv)",
+    "k": 5,
+    "max_precision_at_k": 0.5680000000000001,
+    "configurations": [
+      {
+        "configuration": "TF-IDF only, no synonyms (Activity 3 baseline)",
+        "precision@5": 0.46399999999999997,
+        "recall@5": 0.8333333333333333,
+        "mrr": 0.92
+      },
+      {
+        "configuration": "TF-IDF only + synonyms",
+        "precision@5": 0.496,
+        "recall@5": 0.8866666666666666,
+        "mrr": 0.98
+      },
+      {
+        "configuration": "LSA semantic only + synonyms",
+        "precision@5": 0.528,
+        "recall@5": 0.9366666666666665,
+        "mrr": 0.98
+      },
+      {
+        "configuration": "Hybrid TF-IDF + LSA + synonyms (deployed)",
+        "precision@5": 0.52,
+        "recall@5": 0.9233333333333333,
+        "mrr": 0.96
+      }
+    ],
+    "per_query": [
+      {
+        "query_id": "Q01",
+        "query": "I forgot my password",
+        "relevant": [
+          "DOC001",
+          "DOC011",
+          "DOC021"
+        ],
+        "retrieved": [
+          "DOC021",
+          "DOC001",
+          "DOC011",
+          "DOC051",
+          "DOC044"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q02",
+        "query": "my account is locked after too many attempts",
+        "relevant": [
+          "DOC001",
+          "DOC011",
+          "DOC021"
+        ],
+        "retrieved": [
+          "DOC011",
+          "DOC001",
+          "DOC021",
+          "DOC026",
+          "DOC029"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q03",
+        "query": "I can't log in after changing my password",
+        "relevant": [
+          "DOC001",
+          "DOC011",
+          "DOC021"
+        ],
+        "retrieved": [
+          "DOC011",
+          "DOC050",
+          "DOC001",
+          "DOC047",
+          "DOC028"
+        ],
+        "hits": 2,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q04",
+        "query": "VPN authentication error when working from home",
+        "relevant": [
+          "DOC003",
+          "DOC012",
+          "DOC022"
+        ],
+        "retrieved": [
+          "DOC012",
+          "DOC003",
+          "DOC022",
+          "DOC036",
+          "DOC001"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q05",
+        "query": "how to work remotely in a secure way",
+        "relevant": [
+          "DOC003",
+          "DOC012",
+          "DOC022"
+        ],
+        "retrieved": [
+          "DOC003",
+          "DOC006",
+          "DOC042",
+          "DOC009",
+          "DOC025"
+        ],
+        "hits": 1,
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q06",
+        "query": "a new employee needs a laptop and access on the first day",
+        "relevant": [
+          "DOC002",
+          "DOC024",
+          "DOC049",
+          "DOC052"
+        ],
+        "retrieved": [
+          "DOC002",
+          "DOC052",
+          "DOC049",
+          "DOC009",
+          "DOC024"
+        ],
+        "hits": 4,
+        "precision": 0.8,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q07",
+        "query": "an employee is leaving the company and we must remove access",
+        "relevant": [
+          "DOC009"
+        ],
+        "retrieved": [
+          "DOC009",
+          "DOC002",
+          "DOC036",
+          "DOC016",
+          "DOC041"
+        ],
+        "hits": 1,
+        "precision": 0.2,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q08",
+        "query": "I received a suspicious email asking for my bank credentials",
+        "relevant": [
+          "DOC016",
+          "DOC023",
+          "DOC029",
+          "DOC031"
+        ],
+        "retrieved": [
+          "DOC016",
+          "DOC023",
+          "DOC050",
+          "DOC039",
+          "DOC029"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 0.75,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q09",
+        "query": "my computer is infected with a virus",
+        "relevant": [
+          "DOC008",
+          "DOC037",
+          "DOC050"
+        ],
+        "retrieved": [
+          "DOC037",
+          "DOC008",
+          "DOC050",
+          "DOC009",
+          "DOC011"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q10",
+        "query": "how to report a security incident",
+        "relevant": [
+          "DOC008",
+          "DOC026",
+          "DOC050"
+        ],
+        "retrieved": [
+          "DOC008",
+          "DOC050",
+          "DOC026",
+          "DOC029",
+          "DOC023"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q11",
+        "query": "recover a file I deleted by mistake",
+        "relevant": [
+          "DOC005",
+          "DOC034",
+          "DOC045"
+        ],
+        "retrieved": [
+          "DOC045",
+          "DOC034",
+          "DOC055",
+          "DOC050",
+          "DOC044"
+        ],
+        "hits": 2,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q12",
+        "query": "the nightly backup job failed",
+        "relevant": [
+          "DOC005",
+          "DOC018",
+          "DOC030"
+        ],
+        "retrieved": [
+          "DOC018",
+          "DOC005",
+          "DOC030",
+          "DOC011",
+          "DOC014"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q13",
+        "query": "the server disk is full",
+        "relevant": [
+          "DOC018",
+          "DOC020",
+          "DOC030"
+        ],
+        "retrieved": [
+          "DOC005",
+          "DOC020",
+          "DOC030",
+          "DOC018",
+          "DOC053"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 0.5
+      },
+      {
+        "query_id": "Q14",
+        "query": "I need a new laptop and a monitor",
+        "relevant": [
+          "DOC006",
+          "DOC042"
+        ],
+        "retrieved": [
+          "DOC042",
+          "DOC006",
+          "DOC017",
+          "DOC052",
+          "DOC047"
+        ],
+        "hits": 2,
+        "precision": 0.4,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q15",
+        "query": "how can I install a program on my computer",
+        "relevant": [
+          "DOC010",
+          "DOC039",
+          "DOC043"
+        ],
+        "retrieved": [
+          "DOC043",
+          "DOC010",
+          "DOC039",
+          "DOC057",
+          "DOC022"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q16",
+        "query": "the printer is not working",
+        "relevant": [
+          "DOC014",
+          "DOC048"
+        ],
+        "retrieved": [
+          "DOC048",
+          "DOC014",
+          "DOC003",
+          "DOC015",
+          "DOC031"
+        ],
+        "hits": 2,
+        "precision": 0.4,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q17",
+        "query": "I lost my company phone",
+        "relevant": [
+          "DOC025",
+          "DOC032",
+          "DOC036",
+          "DOC041"
+        ],
+        "retrieved": [
+          "DOC032",
+          "DOC041",
+          "DOC036",
+          "DOC025",
+          "DOC049"
+        ],
+        "hits": 4,
+        "precision": 0.8,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q18",
+        "query": "set up the authentication app on my new phone",
+        "relevant": [
+          "DOC032",
+          "DOC036",
+          "DOC041"
+        ],
+        "retrieved": [
+          "DOC041",
+          "DOC036",
+          "DOC049",
+          "DOC032",
+          "DOC021"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q19",
+        "query": "share files with an external partner",
+        "relevant": [
+          "DOC007",
+          "DOC034",
+          "DOC044"
+        ],
+        "retrieved": [
+          "DOC034",
+          "DOC055",
+          "DOC044",
+          "DOC045",
+          "DOC031"
+        ],
+        "hits": 2,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q20",
+        "query": "ERP is very slow during the month-end close",
+        "relevant": [
+          "DOC015",
+          "DOC027",
+          "DOC060"
+        ],
+        "retrieved": [
+          "DOC015",
+          "DOC060",
+          "DOC027",
+          "DOC049",
+          "DOC054"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q21",
+        "query": "how is a change to production approved",
+        "relevant": [
+          "DOC004",
+          "DOC028",
+          "DOC033"
+        ],
+        "retrieved": [
+          "DOC004",
+          "DOC028",
+          "DOC033",
+          "DOC053",
+          "DOC041"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q22",
+        "query": "wifi is not working on my floor",
+        "relevant": [
+          "DOC040",
+          "DOC047",
+          "DOC058"
+        ],
+        "retrieved": [
+          "DOC040",
+          "DOC047",
+          "DOC058",
+          "DOC003",
+          "DOC014"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q23",
+        "query": "nobody can hear me in online meetings",
+        "relevant": [
+          "DOC038"
+        ],
+        "retrieved": [
+          "DOC038",
+          "DOC040",
+          "DOC058",
+          "DOC059",
+          "DOC052"
+        ],
+        "hits": 1,
+        "precision": 0.2,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q24",
+        "query": "how long does support take to solve a ticket",
+        "relevant": [
+          "DOC035",
+          "DOC046",
+          "DOC051"
+        ],
+        "retrieved": [
+          "DOC046",
+          "DOC035",
+          "DOC042",
+          "DOC024",
+          "DOC051"
+        ],
+        "hits": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "rr": 1.0
+      },
+      {
+        "query_id": "Q25",
+        "query": "can I read work email on my personal phone",
+        "relevant": [
+          "DOC032",
+          "DOC054"
+        ],
+        "retrieved": [
+          "DOC036",
+          "DOC032",
+          "DOC041",
+          "DOC054",
+          "DOC031"
+        ],
+        "hits": 2,
+        "precision": 0.4,
+        "recall": 1.0,
+        "rr": 0.5
+      }
+    ]
+  },
+  "recommendations": {
+    "cases": [
+      {
+        "case_id": "R01",
+        "seed": "DOC001",
+        "description": "Password policy should lead to the password FAQ and the lockout ticket",
+        "expected": [
+          "DOC011",
+          "DOC021"
+        ],
+        "top5": [
+          "DOC021",
+          "DOC011",
+          "DOC002",
+          "DOC003",
+          "DOC049"
+        ],
+        "scores": [
+          0.5912,
+          0.2762,
+          0.2245,
+          0.2222,
+          0.222
+        ],
+        "found": [
+          "DOC011",
+          "DOC021"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R02",
+        "seed": "DOC012",
+        "description": "VPN ticket should lead to the VPN FAQ and the VPN policy",
+        "expected": [
+          "DOC003",
+          "DOC022"
+        ],
+        "top5": [
+          "DOC022",
+          "DOC003",
+          "DOC036",
+          "DOC041",
+          "DOC011"
+        ],
+        "scores": [
+          0.6823,
+          0.3691,
+          0.2484,
+          0.1833,
+          0.1659
+        ],
+        "found": [
+          "DOC003",
+          "DOC022"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R03",
+        "seed": "DOC037",
+        "description": "Malware incident should lead to incident reporting and response documents",
+        "expected": [
+          "DOC008",
+          "DOC050"
+        ],
+        "top5": [
+          "DOC008",
+          "DOC050",
+          "DOC016",
+          "DOC011",
+          "DOC026"
+        ],
+        "scores": [
+          0.2582,
+          0.1903,
+          0.1556,
+          0.1269,
+          0.1098
+        ],
+        "found": [
+          "DOC008",
+          "DOC050"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R04",
+        "seed": "DOC018",
+        "description": "Backup failure should lead to the backup policy and the storage review",
+        "expected": [
+          "DOC005",
+          "DOC030"
+        ],
+        "top5": [
+          "DOC030",
+          "DOC005",
+          "DOC020",
+          "DOC045",
+          "DOC056"
+        ],
+        "scores": [
+          0.579,
+          0.4323,
+          0.2426,
+          0.1464,
+          0.1386
+        ],
+        "found": [
+          "DOC005",
+          "DOC030"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R05",
+        "seed": "DOC041",
+        "description": "New phone FAQ should lead to the new phone ticket and the mobile device policy",
+        "expected": [
+          "DOC032",
+          "DOC036"
+        ],
+        "top5": [
+          "DOC036",
+          "DOC032",
+          "DOC049",
+          "DOC022",
+          "DOC054"
+        ],
+        "scores": [
+          0.7274,
+          0.4639,
+          0.2715,
+          0.2612,
+          0.2441
+        ],
+        "found": [
+          "DOC032",
+          "DOC036"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R06",
+        "seed": "DOC014",
+        "description": "Printer ticket should lead to the printer FAQ",
+        "expected": [
+          "DOC048"
+        ],
+        "top5": [
+          "DOC048",
+          "DOC058",
+          "DOC040",
+          "DOC005",
+          "DOC018"
+        ],
+        "scores": [
+          0.7366,
+          0.1573,
+          0.1244,
+          0.0876,
+          0.0828
+        ],
+        "found": [
+          "DOC048"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R07",
+        "seed": "DOC040",
+        "description": "Wi-Fi outage should lead to the Wi-Fi FAQ and the network upgrade minutes",
+        "expected": [
+          "DOC047",
+          "DOC058"
+        ],
+        "top5": [
+          "DOC058",
+          "DOC047",
+          "DOC013",
+          "DOC028",
+          "DOC038"
+        ],
+        "scores": [
+          0.6688,
+          0.3371,
+          0.277,
+          0.2179,
+          0.1976
+        ],
+        "found": [
+          "DOC047",
+          "DOC058"
+        ],
+        "passed": true
+      },
+      {
+        "case_id": "R08",
+        "seed": "DOC015",
+        "description": "ERP slowness should lead to the ERP migration and go-live minutes",
+        "expected": [
+          "DOC027",
+          "DOC060"
+        ],
+        "top5": [
+          "DOC060",
+          "DOC027",
+          "DOC030",
+          "DOC020",
+          "DOC051"
+        ],
+        "scores": [
+          0.4144,
+          0.2003,
+          0.1464,
+          0.1204,
+          0.12
+        ],
+        "found": [
+          "DOC027",
+          "DOC060"
+        ],
+        "passed": true
+      }
+    ],
+    "cases_passed": 8,
+    "expected_found": 15,
+    "expected_total": 15,
+    "concept_coherence": 0.8466666666666665,
+    "avg_categories_in_top5": 3.1166666666666667
+  },
+  "context": [
+    {
+      "query": "new phone",
+      "history": [
+        "search: VPN authentication error",
+        "view: DOC012"
+      ],
+      "without_context": [
+        "DOC041",
+        "DOC036",
+        "DOC032",
+        "DOC049",
+        "DOC025"
+      ],
+      "with_context": [
+        "DOC012",
+        "DOC036",
+        "DOC022",
+        "DOC041",
+        "DOC003"
+      ]
+    },
+    {
+      "query": "new phone",
+      "history": [
+        "search: I lost my company phone",
+        "view: DOC025"
+      ],
+      "without_context": [
+        "DOC041",
+        "DOC036",
+        "DOC032",
+        "DOC049",
+        "DOC025"
+      ],
+      "with_context": [
+        "DOC025",
+        "DOC041",
+        "DOC032",
+        "DOC036",
+        "DOC049"
+      ]
+    },
+    {
+      "query": "it does not work",
+      "history": [
+        "search: the printer is not working"
+      ],
+      "without_context": [
+        "DOC003",
+        "DOC015",
+        "DOC031",
+        "DOC036",
+        "DOC034"
+      ],
+      "with_context": [
+        "DOC048",
+        "DOC014",
+        "DOC003",
+        "DOC015",
+        "DOC031"
+      ]
+    },
+    {
+      "query": "it does not work",
+      "history": [
+        "search: wifi is not working on my floor"
+      ],
+      "without_context": [
+        "DOC003",
+        "DOC015",
+        "DOC031",
+        "DOC036",
+        "DOC034"
+      ],
+      "with_context": [
+        "DOC003",
+        "DOC040",
+        "DOC047",
+        "DOC058",
+        "DOC015"
+      ]
+    }
+  ],
+  "chatbot": {
+    "questions": [
+      {
+        "question_id": "C01",
+        "question": "How do I reset my password?",
+        "expected": [
+          "DOC021"
+        ],
+        "sources": [
+          "DOC021",
+          "DOC051",
+          "DOC001"
+        ],
+        "cited_in_answer": [
+          "DOC021",
+          "DOC051"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "self-service portal",
+        "answer": "According to **DOC021** (FAQ: How do I reset my password?): If you forgot your password, go to the company self-service portal and select the option to reset it. You will need to confirm your identity with the verification code from the authentication app.\n\nAlso, from **DOC051** (Minutes: Service Desk monthly performance review): The most frequent requests were password resets, account lockouts, and access to shared folders. It was agreed to promote the self-service password reset portal and to publish new frequently asked questions."
+      },
+      {
+        "question_id": "C02",
+        "question": "What should I do if the VPN shows an authentication error?",
+        "expected": [
+          "DOC012",
+          "DOC022"
+        ],
+        "sources": [
+          "DOC012",
+          "DOC022",
+          "DOC003"
+        ],
+        "cited_in_answer": [
+          "DOC003",
+          "DOC012",
+          "DOC022"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "synchroniz",
+        "answer": "According to **DOC012** (Ticket: VPN will not connect from home, authentication error): A remote employee reports that the VPN does not connect and shows an authentication failed error when entering the verification code. It was found that the clock on the laptop was out of sync, which invalidated the code from the multi-factor authentication app.\n\nAlso, from **DOC022** (FAQ: How do I connect to the VPN?): If you get an authentication error, check that your device time is synchronized and, if it continues, open a ticket with a screenshot of the error.\n\nAlso, from **DOC003** (VPN and Remote Work Policy): Remote staff must connect to the corporate network only through the approved VPN with multi-factor authentication."
+      },
+      {
+        "question_id": "C03",
+        "question": "How long are backups kept?",
+        "expected": [
+          "DOC005"
+        ],
+        "sources": [
+          "DOC005",
+          "DOC018",
+          "DOC030"
+        ],
+        "cited_in_answer": [
+          "DOC005"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "12 months",
+        "answer": "According to **DOC005** (Backup and Information Retention Policy): Backups are stored in an encrypted off-site location and kept for 12 months. The infrastructure team checks the result of backup jobs daily and runs a restore test every quarter. Any failed backup must be logged as an incident and resolved before the next scheduled run."
+      },
+      {
+        "question_id": "C04",
+        "question": "What is the response time for a critical ticket?",
+        "expected": [
+          "DOC035",
+          "DOC046"
+        ],
+        "sources": [
+          "DOC035",
+          "DOC046",
+          "DOC015"
+        ],
+        "cited_in_answer": [
+          "DOC035",
+          "DOC046"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "30 minutes",
+        "answer": "According to **DOC035** (Service Desk Ticket Prioritization and Service Level Procedure): Critical priority tickets, such as an outage affecting a whole area, have a response time of 30 minutes and a resolution target of four hours. High priority tickets are resolved within one business day, and normal requests within three business days.\n\nAlso, from **DOC046** (FAQ: How long will it take to solve my ticket?): Resolution time depends on the priority of the ticket. If the time is exceeded, the ticket is escalated automatically to the support lead."
+      },
+      {
+        "question_id": "C05",
+        "question": "How many characters must a password have?",
+        "expected": [
+          "DOC001",
+          "DOC021"
+        ],
+        "sources": [
+          "DOC001",
+          "DOC021",
+          "DOC011"
+        ],
+        "cited_in_answer": [
+          "DOC001",
+          "DOC011",
+          "DOC021"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "12 characters",
+        "answer": "According to **DOC001** (Password and Multi-Factor Authentication Policy): All corporate accounts must use passwords of at least 12 characters that combine uppercase letters, lowercase letters, numbers, and symbols. Passwords are renewed every 90 days and the last five passwords cannot be reused.\n\nAlso, from **DOC021** (FAQ: How do I reset my password?): The new password must have at least 12 characters with uppercase letters, lowercase letters, numbers, and symbols.\n\nAlso, from **DOC011** (Ticket: User locked out after failed password attempts): The system shows an account locked message due to too many failed attempts."
+      },
+      {
+        "question_id": "C06",
+        "question": "What should I do if I lose my company phone?",
+        "expected": [
+          "DOC025",
+          "DOC032",
+          "DOC041"
+        ],
+        "sources": [
+          "DOC025",
+          "DOC032",
+          "DOC041"
+        ],
+        "cited_in_answer": [
+          "DOC025",
+          "DOC032"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "immediately",
+        "answer": "According to **DOC025** (FAQ: What should I do if I lose my company laptop or phone?): If you lose a company device or it is stolen, report it immediately to the Service Desk and to your direct manager, without waiting until the next day. The security team will remotely lock the device, revoke active sessions, and change your passwords.\n\nAlso, from **DOC032** (Mobile Device and Bring Your Own Device Policy): Personal or company phones and tablets that access corporate email or applications must be enrolled in the mobile device management platform. The company can remotely wipe only the corporate workspace of a personal device."
+      },
+      {
+        "question_id": "C07",
+        "question": "How can I share a file with an external partner?",
+        "expected": [
+          "DOC034",
+          "DOC044"
+        ],
+        "sources": [
+          "DOC034",
+          "DOC055",
+          "DOC044"
+        ],
+        "cited_in_answer": [
+          "DOC034",
+          "DOC055"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "expiration date",
+        "answer": "According to **DOC034** (Cloud Storage and File Sharing Policy): Files can be shared with external partners only through links with an expiration date and a password. Confidential and restricted files cannot be shared externally without approval from the department head.\n\nAlso, from **DOC055** (Minutes: Cloud storage migration kickoff): Security presented the rules to share files with external partners using links with expiration dates."
+      },
+      {
+        "question_id": "C08",
+        "question": "How do I install a program that is not in the catalog?",
+        "expected": [
+          "DOC010",
+          "DOC039",
+          "DOC043"
+        ],
+        "sources": [
+          "DOC043",
+          "DOC039",
+          "DOC010"
+        ],
+        "cited_in_answer": [
+          "DOC039",
+          "DOC043"
+        ],
+        "source_hit": true,
+        "fact_found": false,
+        "expected_fact": "justification",
+        "answer": "According to **DOC043** (FAQ: How do I install approved software?): Open the software portal on your corporate computer and search for the program in the approved catalog. Select install and the program will be installed automatically without administrator permissions.\n\nAlso, from **DOC039** (Ticket: Software installation blocked by administrator permissions): Once approved, the program was added to the catalog and installed from the software portal."
+      },
+      {
+        "question_id": "C09",
+        "question": "How long do I have to recover a deleted file?",
+        "expected": [
+          "DOC034",
+          "DOC045"
+        ],
+        "sources": [
+          "DOC045",
+          "DOC034",
+          "DOC055"
+        ],
+        "cited_in_answer": [
+          "DOC034",
+          "DOC045"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "30 days",
+        "answer": "According to **DOC045** (FAQ: How do I recover a deleted or overwritten file?): If you deleted a file from the corporate cloud storage, open the recycle bin and restore it within 30 days. To recover a previous version of an overwritten file, open the version history and select the date you need.\n\nAlso, from **DOC034** (Cloud Storage and File Sharing Policy): Deleted files can be recovered by the owner from the recycle bin for 30 days. Personal cloud storage services cannot be used for company information."
+      },
+      {
+        "question_id": "C10",
+        "question": "When are critical security patches installed?",
+        "expected": [
+          "DOC033",
+          "DOC053"
+        ],
+        "sources": [
+          "DOC033",
+          "DOC053",
+          "DOC043"
+        ],
+        "cited_in_answer": [
+          "DOC033",
+          "DOC053"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "72 hours",
+        "answer": "According to **DOC033** (Security Patch and Update Management Procedure): Operating system and application security patches are evaluated every month by the infrastructure team. Critical patches are installed within 72 hours on servers and workstations after testing in a pre-production environment. Updates to production servers follow the change management procedure and are applied in the approved maintenance window with a rollback plan.\n\nAlso, from **DOC053** (Minutes: Monthly patch compliance review): It was agreed to test critical patches in pre-production within 48 hours and to include server updates in the next maintenance window approved by the change committee."
+      },
+      {
+        "question_id": "C11",
+        "question": "What happens on my first day at the company?",
+        "expected": [
+          "DOC049"
+        ],
+        "sources": [
+          "DOC049",
+          "DOC025",
+          "DOC002"
+        ],
+        "cited_in_answer": [
+          "DOC025",
+          "DOC049"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "laptop",
+        "answer": "According to **DOC049** (FAQ: What happens on my first day at the company?): On your first day, the Service Desk will give you your laptop, your network user, and your email account, which were created during the onboarding process. You will set your password, register the authentication app on your phone, and sign the asset use responsibility letter. During the first week you must complete the security awareness training.\n\nAlso, from **DOC025** (FAQ: What should I do if I lose my company laptop or phone?): If you lose a company device or it is stolen, report it immediately to the Service Desk and to your direct manager, without waiting until the next day."
+      },
+      {
+        "question_id": "C12",
+        "question": "How do I report a suspicious email?",
+        "expected": [
+          "DOC016",
+          "DOC023"
+        ],
+        "sources": [
+          "DOC023",
+          "DOC016",
+          "DOC050"
+        ],
+        "cited_in_answer": [
+          "DOC016",
+          "DOC023",
+          "DOC050"
+        ],
+        "source_hit": true,
+        "fact_found": true,
+        "expected_fact": "report phishing button",
+        "answer": "According to **DOC023** (FAQ: How do I report a suspicious email?): Use the report phishing button in the email client or forward the message to the security mailbox.\n\nAlso, from **DOC016** (Ticket: Suspicious phishing email reported by an employee): A sales employee reported an email that pretended to be from the bank and asked her to confirm credentials through a link.\n\nAlso, from **DOC050** (FAQ: How do I report a security incident?): If you notice something unusual, such as a virus alert, a suspicious email, files that changed without reason, or an unknown login to your account, report it immediately to the Service Desk. Do not turn off the device or delete evidence, but disconnect it from the network if the security team asks you to."
+      }
+    ],
+    "source_hit_rate": 1.0,
+    "answer_fact_rate": 0.9166666666666666
+  }
+}

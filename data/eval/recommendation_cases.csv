@@ -1,0 +1,9 @@
+case_id,seed_id,description,expected_ids
+R01,DOC001,Password policy should lead to the password FAQ and the lockout ticket,DOC021;DOC011
+R02,DOC012,VPN ticket should lead to the VPN FAQ and the VPN policy,DOC022;DOC003
+R03,DOC037,Malware incident should lead to incident reporting and response documents,DOC050;DOC008
+R04,DOC018,Backup failure should lead to the backup policy and the storage review,DOC005;DOC030
+R05,DOC041,New phone FAQ should lead to the new phone ticket and the mobile device policy,DOC036;DOC032
+R06,DOC014,Printer ticket should lead to the printer FAQ,DOC048
+R07,DOC040,Wi-Fi outage should lead to the Wi-Fi FAQ and the network upgrade minutes,DOC047;DOC058
+R08,DOC015,ERP slowness should lead to the ERP migration and go-live minutes,DOC027;DOC060

@@ -1,0 +1,62 @@
+{
+  "name": "Altavista IT Knowledge Ontology",
+  "version": "2.0",
+  "description": "Conceptual model of the Altavista knowledge base. Version 2.0 extends the Phase I model (Document, Category, Concept) with knowledge domains, concept-to-concept relations, and document-to-document relations derived from the system.",
+  "classes": {
+    "Document": "A unit of knowledge in the repository (policy, ticket, FAQ, or meeting minutes).",
+    "Category": "The document type assigned by the classifier: Policy/Process, Support/Incidents, FAQ, or Minutes.",
+    "Concept": "A business or technical topic mentioned in documents, detected with the keyword lexicon below.",
+    "Domain": "A knowledge area that groups related concepts."
+  },
+  "relations": {
+    "belongs_to": "Document -> Category (label from the corpus, or predicted by the classifier for new documents)",
+    "mentions": "Document -> Concept (at least one concept keyword appears in the title or text)",
+    "part_of": "Concept -> Domain",
+    "related_to": "Concept <-> Concept (the two concepts are mentioned together in at least 3 documents)",
+    "similar_to": "Document <-> Document (hybrid cosine similarity above the configured threshold)",
+    "governed_by": "Ticket, FAQ, or Minutes -> the most similar Policy/Process document that shares a concept"
+  },
+  "categories": {
+    "Policy/Process": "Rules and procedures that define how work must be done.",
+    "Support/Incidents": "Records of tickets and incidents and how they were solved.",
+    "FAQ": "Self-service answers to frequent user questions.",
+    "Minutes": "Decisions and agreements from meetings and committees."
+  },
+  "domains": {
+    "Identity & Access": "Accounts, credentials, authentication, and permissions.",
+    "Information Security": "Threats, incidents, data protection, and awareness.",
+    "Infrastructure & Operations": "Servers, storage, networks, backups, and changes.",
+    "End-User Support": "Devices, software, and day-to-day help for employees.",
+    "Business Applications": "Enterprise systems and collaboration tools.",
+    "People & Governance": "Employee lifecycle, service levels, and knowledge management."
+  },
+  "concepts": {
+    "Password": {"domain": "Identity & Access", "keywords": ["password", "credential"]},
+    "Multi-Factor Authentication": {"domain": "Identity & Access", "keywords": ["multi-factor", "authentication app", "verification code"]},
+    "Account Lockout": {"domain": "Identity & Access", "keywords": ["locked", "lockout", "unlock", "failed attempts"]},
+    "Access Permissions": {"domain": "Identity & Access", "keywords": ["access", "permission", "least privilege", "security group"]},
+    "VPN & Remote Work": {"domain": "Identity & Access", "keywords": ["vpn", "remote"]},
+    "Phishing": {"domain": "Information Security", "keywords": ["phishing", "suspicious email", "fraudulent", "suspicious link"]},
+    "Malware": {"domain": "Information Security", "keywords": ["malware", "antivirus", "virus"]},
+    "Security Incident": {"domain": "Information Security", "keywords": ["security incident", "security team", "severity", "contain"]},
+    "Data Protection": {"domain": "Information Security", "keywords": ["confidential", "restricted", "encrypt", "disclosure", "personal data"]},
+    "Security Awareness": {"domain": "Information Security", "keywords": ["training", "awareness", "simulation"]},
+    "Backup & Recovery": {"domain": "Infrastructure & Operations", "keywords": ["backup", "restore test", "recover", "disaster recovery", "retention", "recycle bin"]},
+    "Storage Capacity": {"domain": "Infrastructure & Operations", "keywords": ["disk space", "lack of space", "capacity", "storage", "log files"]},
+    "Change Management": {"domain": "Infrastructure & Operations", "keywords": ["change request", "change committee", "change management", "rollback", "maintenance window"]},
+    "Patching & Updates": {"domain": "Infrastructure & Operations", "keywords": ["patch", "update", "firmware"]},
+    "Network & Wi-Fi": {"domain": "Infrastructure & Operations", "keywords": ["wireless", "access point", "network team", "guest network"]},
+    "Database & Servers": {"domain": "Infrastructure & Operations", "keywords": ["database", "server"]},
+    "Laptops & Equipment": {"domain": "End-User Support", "keywords": ["laptop", "monitor", "equipment", "charger", "peripheral"]},
+    "Mobile Devices": {"domain": "End-User Support", "keywords": ["phone", "mobile device", "tablet"]},
+    "Software Installation": {"domain": "End-User Support", "keywords": ["software", "install", "license", "catalog"]},
+    "Printing": {"domain": "End-User Support", "keywords": ["printer", "print", "toner"]},
+    "Email": {"domain": "Business Applications", "keywords": ["email", "mailbox"]},
+    "ERP": {"domain": "Business Applications", "keywords": ["erp", "month-end close", "accounting close"]},
+    "Cloud Storage & File Sharing": {"domain": "Business Applications", "keywords": ["cloud storage", "shared folder", "file sharing", "share files", "share it", "external partners"]},
+    "Video Conferencing": {"domain": "Business Applications", "keywords": ["video conference", "microphone", "audio"]},
+    "Onboarding & Offboarding": {"domain": "People & Governance", "keywords": ["onboarding", "offboarding", "new employee", "first day", "leaves the company", "departure"]},
+    "Service Desk & SLA": {"domain": "People & Governance", "keywords": ["service desk", "ticket", "service level", "escalat", "priority"]},
+    "Knowledge Management": {"domain": "People & Governance", "keywords": ["frequently asked questions", "knowledge base", "guide", "recommender", "chatbot"]}
+  }
+}

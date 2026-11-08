@@ -1,0 +1,2236 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d5" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d4" for="node" attr.name="source" attr.type="string"/>
+<key id="d3" for="node" attr.name="category" attr.type="string"/>
+<key id="d2" for="node" attr.name="info" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="domain:Identity &amp; Access">
+  <data key="d0">Identity &amp; Access</data>
+  <data key="d1">Domain</data>
+  <data key="d2">Accounts, credentials, authentication, and permissions.</data>
+</node>
+<node id="domain:Information Security">
+  <data key="d0">Information Security</data>
+  <data key="d1">Domain</data>
+  <data key="d2">Threats, incidents, data protection, and awareness.</data>
+</node>
+<node id="domain:Infrastructure &amp; Operations">
+  <data key="d0">Infrastructure &amp; Operations</data>
+  <data key="d1">Domain</data>
+  <data key="d2">Servers, storage, networks, backups, and changes.</data>
+</node>
+<node id="domain:End-User Support">
+  <data key="d0">End-User Support</data>
+  <data key="d1">Domain</data>
+  <data key="d2">Devices, software, and day-to-day help for employees.</data>
+</node>
+<node id="domain:Business Applications">
+  <data key="d0">Business Applications</data>
+  <data key="d1">Domain</data>
+  <data key="d2">Enterprise systems and collaboration tools.</data>
+</node>
+<node id="domain:People &amp; Governance">
+  <data key="d0">People &amp; Governance</data>
+  <data key="d1">Domain</data>
+  <data key="d2">Employee lifecycle, service levels, and knowledge management.</data>
+</node>
+<node id="cat:Policy/Process">
+  <data key="d0">Policy/Process</data>
+  <data key="d1">Category</data>
+  <data key="d2">Rules and procedures that define how work must be done.</data>
+</node>
+<node id="cat:Support/Incidents">
+  <data key="d0">Support/Incidents</data>
+  <data key="d1">Category</data>
+  <data key="d2">Records of tickets and incidents and how they were solved.</data>
+</node>
+<node id="cat:FAQ">
+  <data key="d0">FAQ</data>
+  <data key="d1">Category</data>
+  <data key="d2">Self-service answers to frequent user questions.</data>
+</node>
+<node id="cat:Minutes">
+  <data key="d0">Minutes</data>
+  <data key="d1">Category</data>
+  <data key="d2">Decisions and agreements from meetings and committees.</data>
+</node>
+<node id="concept:Password">
+  <data key="d0">Password</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Identity &amp; Access</data>
+</node>
+<node id="concept:Multi-Factor Authentication">
+  <data key="d0">Multi-Factor Authentication</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Identity &amp; Access</data>
+</node>
+<node id="concept:Account Lockout">
+  <data key="d0">Account Lockout</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Identity &amp; Access</data>
+</node>
+<node id="concept:Access Permissions">
+  <data key="d0">Access Permissions</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Identity &amp; Access</data>
+</node>
+<node id="concept:VPN &amp; Remote Work">
+  <data key="d0">VPN &amp; Remote Work</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Identity &amp; Access</data>
+</node>
+<node id="concept:Phishing">
+  <data key="d0">Phishing</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Information Security</data>
+</node>
+<node id="concept:Malware">
+  <data key="d0">Malware</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Information Security</data>
+</node>
+<node id="concept:Security Incident">
+  <data key="d0">Security Incident</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Information Security</data>
+</node>
+<node id="concept:Data Protection">
+  <data key="d0">Data Protection</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Information Security</data>
+</node>
+<node id="concept:Security Awareness">
+  <data key="d0">Security Awareness</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Information Security</data>
+</node>
+<node id="concept:Backup &amp; Recovery">
+  <data key="d0">Backup &amp; Recovery</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Infrastructure &amp; Operations</data>
+</node>
+<node id="concept:Storage Capacity">
+  <data key="d0">Storage Capacity</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Infrastructure &amp; Operations</data>
+</node>
+<node id="concept:Change Management">
+  <data key="d0">Change Management</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Infrastructure &amp; Operations</data>
+</node>
+<node id="concept:Patching &amp; Updates">
+  <data key="d0">Patching &amp; Updates</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Infrastructure &amp; Operations</data>
+</node>
+<node id="concept:Network &amp; Wi-Fi">
+  <data key="d0">Network &amp; Wi-Fi</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Infrastructure &amp; Operations</data>
+</node>
+<node id="concept:Database &amp; Servers">
+  <data key="d0">Database &amp; Servers</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Infrastructure &amp; Operations</data>
+</node>
+<node id="concept:Laptops &amp; Equipment">
+  <data key="d0">Laptops &amp; Equipment</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: End-User Support</data>
+</node>
+<node id="concept:Mobile Devices">
+  <data key="d0">Mobile Devices</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: End-User Support</data>
+</node>
+<node id="concept:Software Installation">
+  <data key="d0">Software Installation</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: End-User Support</data>
+</node>
+<node id="concept:Printing">
+  <data key="d0">Printing</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: End-User Support</data>
+</node>
+<node id="concept:Email">
+  <data key="d0">Email</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Business Applications</data>
+</node>
+<node id="concept:ERP">
+  <data key="d0">ERP</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Business Applications</data>
+</node>
+<node id="concept:Cloud Storage &amp; File Sharing">
+  <data key="d0">Cloud Storage &amp; File Sharing</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Business Applications</data>
+</node>
+<node id="concept:Video Conferencing">
+  <data key="d0">Video Conferencing</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: Business Applications</data>
+</node>
+<node id="concept:Onboarding &amp; Offboarding">
+  <data key="d0">Onboarding &amp; Offboarding</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: People &amp; Governance</data>
+</node>
+<node id="concept:Service Desk &amp; SLA">
+  <data key="d0">Service Desk &amp; SLA</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: People &amp; Governance</data>
+</node>
+<node id="concept:Knowledge Management">
+  <data key="d0">Knowledge Management</data>
+  <data key="d1">Concept</data>
+  <data key="d2">Domain: People &amp; Governance</data>
+</node>
+<node id="DOC001">
+  <data key="d0">DOC001</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Password and Multi-Factor Authentication Policy | Policy/Process</data>
+</node>
+<node id="DOC002">
+  <data key="d0">DOC002</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">User Onboarding and Access Assignment Process | Policy/Process</data>
+</node>
+<node id="DOC003">
+  <data key="d0">DOC003</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">VPN and Remote Work Policy | Policy/Process</data>
+</node>
+<node id="DOC004">
+  <data key="d0">DOC004</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Production Change Management Procedure | Policy/Process</data>
+</node>
+<node id="DOC005">
+  <data key="d0">DOC005</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Backup and Information Retention Policy | Policy/Process</data>
+</node>
+<node id="DOC006">
+  <data key="d0">DOC006</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Computer Equipment Request Process | Policy/Process</data>
+</node>
+<node id="DOC007">
+  <data key="d0">DOC007</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Confidential Information Classification and Handling Policy | Policy/Process</data>
+</node>
+<node id="DOC008">
+  <data key="d0">DOC008</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Security Incident Response Procedure | Policy/Process</data>
+</node>
+<node id="DOC009">
+  <data key="d0">DOC009</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Employee Offboarding and Access Revocation Process | Policy/Process</data>
+</node>
+<node id="DOC010">
+  <data key="d0">DOC010</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Authorized Software Installation Policy | Policy/Process</data>
+</node>
+<node id="DOC011">
+  <data key="d0">DOC011</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: User locked out after failed password attempts | Support/Incidents</data>
+</node>
+<node id="DOC012">
+  <data key="d0">DOC012</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: VPN will not connect from home, authentication error | Support/Incidents</data>
+</node>
+<node id="DOC013">
+  <data key="d0">DOC013</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Incident: Corporate email server outage | Support/Incidents</data>
+</node>
+<node id="DOC014">
+  <data key="d0">DOC014</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: Network printer does not print | Support/Incidents</data>
+</node>
+<node id="DOC015">
+  <data key="d0">DOC015</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Incident: ERP system slowness during month-end close | Support/Incidents</data>
+</node>
+<node id="DOC016">
+  <data key="d0">DOC016</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: Suspicious phishing email reported by an employee | Support/Incidents</data>
+</node>
+<node id="DOC017">
+  <data key="d0">DOC017</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: Laptop will not turn on after a power outage | Support/Incidents</data>
+</node>
+<node id="DOC018">
+  <data key="d0">DOC018</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Incident: Nightly database backup failure | Support/Incidents</data>
+</node>
+<node id="DOC019">
+  <data key="d0">DOC019</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: Access denied to a shared folder | Support/Incidents</data>
+</node>
+<node id="DOC020">
+  <data key="d0">DOC020</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Incident: Reporting server out of disk space | Support/Incidents</data>
+</node>
+<node id="DOC021">
+  <data key="d0">DOC021</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I reset my password? | FAQ</data>
+</node>
+<node id="DOC022">
+  <data key="d0">DOC022</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I connect to the VPN? | FAQ</data>
+</node>
+<node id="DOC023">
+  <data key="d0">DOC023</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I report a suspicious email? | FAQ</data>
+</node>
+<node id="DOC024">
+  <data key="d0">DOC024</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I request access to a system or shared folder? | FAQ</data>
+</node>
+<node id="DOC025">
+  <data key="d0">DOC025</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: What should I do if I lose my company laptop or phone? | FAQ</data>
+</node>
+<node id="DOC026">
+  <data key="d0">DOC026</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Monthly security incident review | Minutes</data>
+</node>
+<node id="DOC027">
+  <data key="d0">DOC027</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: ERP migration planning | Minutes</data>
+</node>
+<node id="DOC028">
+  <data key="d0">DOC028</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Change committee and maintenance window | Minutes</data>
+</node>
+<node id="DOC029">
+  <data key="d0">DOC029</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Phishing awareness training | Minutes</data>
+</node>
+<node id="DOC030">
+  <data key="d0">DOC030</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Storage capacity and backup review | Minutes</data>
+</node>
+<node id="DOC031">
+  <data key="d0">DOC031</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Acceptable Use of Email and Messaging Policy | Policy/Process</data>
+</node>
+<node id="DOC032">
+  <data key="d0">DOC032</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Mobile Device and Bring Your Own Device Policy | Policy/Process</data>
+</node>
+<node id="DOC033">
+  <data key="d0">DOC033</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Security Patch and Update Management Procedure | Policy/Process</data>
+</node>
+<node id="DOC034">
+  <data key="d0">DOC034</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Cloud Storage and File Sharing Policy | Policy/Process</data>
+</node>
+<node id="DOC035">
+  <data key="d0">DOC035</data>
+  <data key="d1">Document</data>
+  <data key="d3">Policy/Process</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Service Desk Ticket Prioritization and Service Level Procedure | Policy/Process</data>
+</node>
+<node id="DOC036">
+  <data key="d0">DOC036</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: Authentication app not working on a new phone | Support/Incidents</data>
+</node>
+<node id="DOC037">
+  <data key="d0">DOC037</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Incident: Malware detected on a sales workstation | Support/Incidents</data>
+</node>
+<node id="DOC038">
+  <data key="d0">DOC038</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: No audio in video conference meetings | Support/Incidents</data>
+</node>
+<node id="DOC039">
+  <data key="d0">DOC039</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Ticket: Software installation blocked by administrator permissions | Support/Incidents</data>
+</node>
+<node id="DOC040">
+  <data key="d0">DOC040</data>
+  <data key="d1">Document</data>
+  <data key="d3">Support/Incidents</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Incident: Wireless network outage on the third floor | Support/Incidents</data>
+</node>
+<node id="DOC041">
+  <data key="d0">DOC041</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I set up the authentication app on a new phone? | FAQ</data>
+</node>
+<node id="DOC042">
+  <data key="d0">DOC042</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I request a new laptop or monitor? | FAQ</data>
+</node>
+<node id="DOC043">
+  <data key="d0">DOC043</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I install approved software? | FAQ</data>
+</node>
+<node id="DOC044">
+  <data key="d0">DOC044</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I share confidential files securely? | FAQ</data>
+</node>
+<node id="DOC045">
+  <data key="d0">DOC045</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I recover a deleted or overwritten file? | FAQ</data>
+</node>
+<node id="DOC046">
+  <data key="d0">DOC046</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How long will it take to solve my ticket? | FAQ</data>
+</node>
+<node id="DOC047">
+  <data key="d0">DOC047</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I connect to the office wireless network? | FAQ</data>
+</node>
+<node id="DOC048">
+  <data key="d0">DOC048</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: What can I do if the printer does not print? | FAQ</data>
+</node>
+<node id="DOC049">
+  <data key="d0">DOC049</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: What happens on my first day at the company? | FAQ</data>
+</node>
+<node id="DOC050">
+  <data key="d0">DOC050</data>
+  <data key="d1">Document</data>
+  <data key="d3">FAQ</data>
+  <data key="d4">corpus</data>
+  <data key="d2">FAQ: How do I report a security incident? | FAQ</data>
+</node>
+<node id="DOC051">
+  <data key="d0">DOC051</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Service Desk monthly performance review | Minutes</data>
+</node>
+<node id="DOC052">
+  <data key="d0">DOC052</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Onboarding process improvement meeting | Minutes</data>
+</node>
+<node id="DOC053">
+  <data key="d0">DOC053</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Monthly patch compliance review | Minutes</data>
+</node>
+<node id="DOC054">
+  <data key="d0">DOC054</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Approval of the mobile device policy | Minutes</data>
+</node>
+<node id="DOC055">
+  <data key="d0">DOC055</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Cloud storage migration kickoff | Minutes</data>
+</node>
+<node id="DOC056">
+  <data key="d0">DOC056</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Disaster recovery drill results | Minutes</data>
+</node>
+<node id="DOC057">
+  <data key="d0">DOC057</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Annual software license audit | Minutes</data>
+</node>
+<node id="DOC058">
+  <data key="d0">DOC058</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Wireless network upgrade planning | Minutes</data>
+</node>
+<node id="DOC059">
+  <data key="d0">DOC059</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: Knowledge base improvement meeting | Minutes</data>
+</node>
+<node id="DOC060">
+  <data key="d0">DOC060</data>
+  <data key="d1">Document</data>
+  <data key="d3">Minutes</data>
+  <data key="d4">corpus</data>
+  <data key="d2">Minutes: ERP go-live retrospective | Minutes</data>
+</node>
+<edge source="domain:Identity &amp; Access" target="concept:Password">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Identity &amp; Access" target="concept:Multi-Factor Authentication">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Identity &amp; Access" target="concept:Account Lockout">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Identity &amp; Access" target="concept:Access Permissions">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Identity &amp; Access" target="concept:VPN &amp; Remote Work">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Information Security" target="concept:Phishing">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Information Security" target="concept:Malware">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Information Security" target="concept:Security Incident">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Information Security" target="concept:Data Protection">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Information Security" target="concept:Security Awareness">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Infrastructure &amp; Operations" target="concept:Backup &amp; Recovery">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Infrastructure &amp; Operations" target="concept:Storage Capacity">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Infrastructure &amp; Operations" target="concept:Change Management">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Infrastructure &amp; Operations" target="concept:Patching &amp; Updates">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Infrastructure &amp; Operations" target="concept:Network &amp; Wi-Fi">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Infrastructure &amp; Operations" target="concept:Database &amp; Servers">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:End-User Support" target="concept:Laptops &amp; Equipment">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:End-User Support" target="concept:Mobile Devices">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:End-User Support" target="concept:Software Installation">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:End-User Support" target="concept:Printing">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Business Applications" target="concept:Email">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Business Applications" target="concept:ERP">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Business Applications" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:Business Applications" target="concept:Video Conferencing">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:People &amp; Governance" target="concept:Onboarding &amp; Offboarding">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:People &amp; Governance" target="concept:Service Desk &amp; SLA">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="domain:People &amp; Governance" target="concept:Knowledge Management">
+  <data key="d5">part_of</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC001">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC002">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC003">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC004">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC005">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC006">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC007">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC008">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC009">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC010">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC031">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC032">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC033">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC034">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Policy/Process" target="DOC035">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC011">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC012">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC013">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC014">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC015">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC016">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC017">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC018">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC019">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC020">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC036">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC037">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC038">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC039">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Support/Incidents" target="DOC040">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC021">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC022">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC023">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC024">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC025">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC041">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC042">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC043">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC044">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC045">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC046">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC047">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC048">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC049">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:FAQ" target="DOC050">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC026">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC027">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC028">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC029">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC030">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC051">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC052">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC053">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC054">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC055">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC056">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC057">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC058">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC059">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="cat:Minutes" target="DOC060">
+  <data key="d5">belongs_to</data>
+</edge>
+<edge source="concept:Password" target="DOC001">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC009">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC011">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC016">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC021">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC022">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC023">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC029">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC034">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC037">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC039">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC044">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC047">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="DOC051">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Password" target="concept:Access Permissions">
+  <data key="d5">related_to</data>
+  <data key="d6">8</data>
+</edge>
+<edge source="concept:Password" target="concept:Account Lockout">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Password" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">9</data>
+</edge>
+<edge source="concept:Password" target="concept:Multi-Factor Authentication">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Password" target="concept:VPN &amp; Remote Work">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Password" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">12</data>
+</edge>
+<edge source="concept:Password" target="concept:Mobile Devices">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Password" target="concept:Phishing">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Password" target="concept:Software Installation">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Password" target="concept:Data Protection">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Password" target="concept:Security Incident">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Password" target="concept:Laptops &amp; Equipment">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Password" target="concept:Security Awareness">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Password" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC001">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC003">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC012">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC021">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC022">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC029">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC041">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Access Permissions">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Account Lockout">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:VPN &amp; Remote Work">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Patching &amp; Updates">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">9</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Security Awareness">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Multi-Factor Authentication" target="concept:Mobile Devices">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Account Lockout" target="DOC001">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Account Lockout" target="DOC011">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Account Lockout" target="DOC021">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Account Lockout" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Account Lockout" target="DOC051">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Account Lockout" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC001">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC002">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC007">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC008">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC009">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC010">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC017">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC019">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC022">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC024">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC031">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC038">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC039">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC040">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC041">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC043">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC044">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC047">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC051">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC052">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="DOC058">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">9</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:VPN &amp; Remote Work">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Laptops &amp; Equipment">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Onboarding &amp; Offboarding">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">18</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Data Protection">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Software Installation">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Mobile Devices">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Patching &amp; Updates">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Knowledge Management">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Video Conferencing">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Access Permissions" target="concept:Network &amp; Wi-Fi">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC001">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC003">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC009">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC010">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC012">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC022">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="DOC054">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="concept:Data Protection">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">8</data>
+</edge>
+<edge source="concept:VPN &amp; Remote Work" target="concept:Mobile Devices">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Phishing" target="DOC008">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC016">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC023">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC029">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC031">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC037">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="DOC050">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Phishing" target="concept:Malware">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Phishing" target="concept:Security Incident">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Phishing" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Phishing" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Malware" target="DOC003">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Malware" target="DOC008">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Malware" target="DOC037">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Malware" target="DOC050">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Malware" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Malware" target="concept:Security Incident">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC007">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC008">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC023">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC037">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="DOC050">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Incident" target="concept:Data Protection">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Security Incident" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Security Incident" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC003">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC005">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC007">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC023">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC031">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC034">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC044">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="DOC054">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Data Protection" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Data Protection" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Data Protection" target="concept:Mobile Devices">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Data Protection" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Data Protection" target="concept:Storage Capacity">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Security Awareness" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Awareness" target="DOC029">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Security Awareness" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC005">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC018">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC030">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC034">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC045">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC055">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC056">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="DOC057">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="concept:Database &amp; Servers">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="concept:Storage Capacity">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Backup &amp; Recovery" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC015">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC018">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC020">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC030">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC031">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC034">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC044">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC045">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="DOC055">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Storage Capacity" target="concept:Database &amp; Servers">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Storage Capacity" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Change Management" target="DOC004">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC013">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC027">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC028">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC033">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC040">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC053">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC058">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="DOC060">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Change Management" target="concept:Database &amp; Servers">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Change Management" target="concept:Patching &amp; Updates">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC003">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC011">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC013">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC028">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC033">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC038">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC040">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC052">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC053">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC056">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="DOC058">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="concept:Database &amp; Servers">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="concept:Laptops &amp; Equipment">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Patching &amp; Updates" target="concept:Video Conferencing">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Network &amp; Wi-Fi" target="DOC040">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Network &amp; Wi-Fi" target="DOC047">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Network &amp; Wi-Fi" target="DOC058">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC005">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC013">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC014">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC015">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC018">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC020">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC028">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC030">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC033">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC045">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC048">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC053">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC055">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC056">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="DOC060">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Database &amp; Servers" target="concept:ERP">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC002">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC006">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC012">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC013">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC017">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC038">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC042">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC047">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC052">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="DOC053">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="concept:Onboarding &amp; Offboarding">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">10</data>
+</edge>
+<edge source="concept:Laptops &amp; Equipment" target="concept:Software Installation">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC011">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC041">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="DOC054">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Mobile Devices" target="concept:Email">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Mobile Devices" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">6</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC006">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC010">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC013">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC022">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC033">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC039">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC041">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC042">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC043">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC047">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="DOC057">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Software Installation" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">8</data>
+</edge>
+<edge source="concept:Printing" target="DOC014">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Printing" target="DOC048">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC001">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC002">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC009">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC011">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC013">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC016">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC023">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC028">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC029">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC031">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC037">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC041">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC044">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC050">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC054">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="DOC056">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Email" target="concept:Cloud Storage &amp; File Sharing">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Email" target="concept:Onboarding &amp; Offboarding">
+  <data key="d5">related_to</data>
+  <data key="d6">3</data>
+</edge>
+<edge source="concept:Email" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">11</data>
+</edge>
+<edge source="concept:ERP" target="DOC015">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:ERP" target="DOC027">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:ERP" target="DOC056">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:ERP" target="DOC060">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC002">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC019">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC024">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC031">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC034">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC044">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC045">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC051">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="DOC055">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Cloud Storage &amp; File Sharing" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">5</data>
+</edge>
+<edge source="concept:Video Conferencing" target="DOC038">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Video Conferencing" target="DOC040">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Video Conferencing" target="DOC058">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Onboarding &amp; Offboarding" target="DOC002">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Onboarding &amp; Offboarding" target="DOC009">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Onboarding &amp; Offboarding" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Onboarding &amp; Offboarding" target="DOC052">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Onboarding &amp; Offboarding" target="concept:Service Desk &amp; SLA">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC002">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC003">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC006">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC008">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC009">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC010">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC011">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC012">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC014">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC016">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC017">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC019">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC021">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC022">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC023">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC024">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC025">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC029">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC032">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC035">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC038">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC039">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC041">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC042">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC043">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC045">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC046">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC047">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC048">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC049">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC050">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC051">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC052">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="DOC059">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Service Desk &amp; SLA" target="concept:Knowledge Management">
+  <data key="d5">related_to</data>
+  <data key="d6">4</data>
+</edge>
+<edge source="concept:Knowledge Management" target="DOC026">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Knowledge Management" target="DOC036">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Knowledge Management" target="DOC051">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Knowledge Management" target="DOC052">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Knowledge Management" target="DOC059">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="concept:Knowledge Management" target="DOC060">
+  <data key="d5">mentions</data>
+</edge>
+<edge source="DOC001" target="DOC021">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.5912027010491958</data>
+</edge>
+<edge source="DOC001" target="DOC011">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.276234851859985</data>
+</edge>
+<edge source="DOC002" target="DOC024">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.3909369748946561</data>
+</edge>
+<edge source="DOC002" target="DOC049">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.49305590832751445</data>
+</edge>
+<edge source="DOC002" target="DOC052">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6236841572661898</data>
+</edge>
+<edge source="DOC002" target="DOC019">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.3373920065693692</data>
+</edge>
+<edge source="DOC003" target="DOC012">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.3691321579467536</data>
+</edge>
+<edge source="DOC003" target="DOC022">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.2863538439415959</data>
+</edge>
+<edge source="DOC003" target="DOC040">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.16424211507697495</data>
+</edge>
+<edge source="DOC003" target="DOC047">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.2249275938438886</data>
+</edge>
+<edge source="DOC004" target="DOC028">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6599674877806163</data>
+</edge>
+<edge source="DOC004" target="DOC033">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.36101612968728947</data>
+</edge>
+<edge source="DOC004" target="DOC027">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.20865932688103228</data>
+</edge>
+<edge source="DOC004" target="DOC060">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.1638415627839813</data>
+</edge>
+<edge source="DOC005" target="DOC018">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.4322621007586874</data>
+</edge>
+<edge source="DOC005" target="DOC030">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.24554911636845667</data>
+</edge>
+<edge source="DOC005" target="DOC056">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.26111151932325755</data>
+</edge>
+<edge source="DOC006" target="DOC042">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.698584124019423</data>
+</edge>
+<edge source="DOC007" target="DOC034">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.3637892503222464</data>
+</edge>
+<edge source="DOC007" target="DOC044">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.5366568441138359</data>
+</edge>
+<edge source="DOC008" target="DOC050">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.3748880570690468</data>
+</edge>
+<edge source="DOC008" target="DOC026">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.17315998180099673</data>
+</edge>
+<edge source="DOC008" target="DOC029">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.15278254774527558</data>
+</edge>
+<edge source="DOC008" target="DOC037">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.25819308168893856</data>
+</edge>
+<edge source="DOC010" target="DOC039">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.7028725925332735</data>
+</edge>
+<edge source="DOC010" target="DOC043">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.7240636341072568</data>
+</edge>
+<edge source="DOC010" target="DOC057">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.4919442901163508</data>
+</edge>
+<edge source="DOC012" target="DOC022">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6823409079727752</data>
+</edge>
+<edge source="DOC013" target="DOC033">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.30081116629771076</data>
+</edge>
+<edge source="DOC014" target="DOC048">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.7366330416559432</data>
+</edge>
+<edge source="DOC015" target="DOC060">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.41438164495684926</data>
+</edge>
+<edge source="DOC016" target="DOC023">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.5458832263452225</data>
+</edge>
+<edge source="DOC016" target="DOC031">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.2509604576551122</data>
+</edge>
+<edge source="DOC018" target="DOC030">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.5790018751555593</data>
+</edge>
+<edge source="DOC019" target="DOC024">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.37082401071466464</data>
+</edge>
+<edge source="DOC020" target="DOC030">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.5934978803899229</data>
+</edge>
+<edge source="DOC023" target="DOC031">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.3409688059913198</data>
+</edge>
+<edge source="DOC024" target="DOC042">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.36177183034890564</data>
+</edge>
+<edge source="DOC025" target="DOC032">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.3356168105262257</data>
+</edge>
+<edge source="DOC026" target="DOC051">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.40547559113685006</data>
+</edge>
+<edge source="DOC027" target="DOC060">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6291350825017333</data>
+</edge>
+<edge source="DOC028" target="DOC033">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.3747047058051317</data>
+</edge>
+<edge source="DOC031" target="DOC044">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.3629727866824385</data>
+</edge>
+<edge source="DOC032" target="DOC036">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.36400540931415876</data>
+</edge>
+<edge source="DOC032" target="DOC041">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.46392448827571653</data>
+</edge>
+<edge source="DOC032" target="DOC054">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6351267348155987</data>
+</edge>
+<edge source="DOC033" target="DOC053">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6550309132911848</data>
+</edge>
+<edge source="DOC034" target="DOC044">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6559916254022224</data>
+</edge>
+<edge source="DOC034" target="DOC045">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.5019171900527292</data>
+</edge>
+<edge source="DOC034" target="DOC055">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.4741477462544943</data>
+</edge>
+<edge source="DOC035" target="DOC046">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.774365714976502</data>
+</edge>
+<edge source="DOC035" target="DOC051">
+  <data key="d5">governed_by</data>
+  <data key="d7">0.222710410322679</data>
+</edge>
+<edge source="DOC036" target="DOC041">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.7274037860338383</data>
+</edge>
+<edge source="DOC039" target="DOC043">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.7831586238825932</data>
+</edge>
+<edge source="DOC040" target="DOC058">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.6687721958077855</data>
+</edge>
+<edge source="DOC043" target="DOC057">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.35551819808426144</data>
+</edge>
+<edge source="DOC044" target="DOC055">
+  <data key="d5">similar_to</data>
+  <data key="d7">0.4286605133230087</data>
+</edge>
+</graph></graphml>

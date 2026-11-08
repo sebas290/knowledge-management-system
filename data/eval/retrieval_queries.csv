@@ -1,0 +1,26 @@
+query_id,query,relevant_ids
+Q01,I forgot my password,DOC021;DOC001;DOC011
+Q02,my account is locked after too many attempts,DOC011;DOC021;DOC001
+Q03,I can't log in after changing my password,DOC011;DOC021;DOC001
+Q04,VPN authentication error when working from home,DOC012;DOC022;DOC003
+Q05,how to work remotely in a secure way,DOC003;DOC022;DOC012
+Q06,a new employee needs a laptop and access on the first day,DOC002;DOC049;DOC052;DOC024
+Q07,an employee is leaving the company and we must remove access,DOC009
+Q08,I received a suspicious email asking for my bank credentials,DOC016;DOC023;DOC029;DOC031
+Q09,my computer is infected with a virus,DOC037;DOC050;DOC008
+Q10,how to report a security incident,DOC050;DOC008;DOC026
+Q11,recover a file I deleted by mistake,DOC045;DOC034;DOC005
+Q12,the nightly backup job failed,DOC018;DOC005;DOC030
+Q13,the server disk is full,DOC020;DOC030;DOC018
+Q14,I need a new laptop and a monitor,DOC042;DOC006
+Q15,how can I install a program on my computer,DOC043;DOC010;DOC039
+Q16,the printer is not working,DOC014;DOC048
+Q17,I lost my company phone,DOC025;DOC032;DOC041;DOC036
+Q18,set up the authentication app on my new phone,DOC041;DOC036;DOC032
+Q19,share files with an external partner,DOC044;DOC034;DOC007
+Q20,ERP is very slow during the month-end close,DOC015;DOC027;DOC060
+Q21,how is a change to production approved,DOC004;DOC028;DOC033
+Q22,wifi is not working on my floor,DOC040;DOC047;DOC058
+Q23,nobody can hear me in online meetings,DOC038
+Q24,how long does support take to solve a ticket,DOC046;DOC035;DOC051
+Q25,can I read work email on my personal phone,DOC032;DOC054

@@ -1,0 +1,13 @@
+question_id,question,expected_ids,expected_fact
+C01,How do I reset my password?,DOC021,self-service portal
+C02,What should I do if the VPN shows an authentication error?,DOC022;DOC012,synchroniz
+C03,How long are backups kept?,DOC005,12 months
+C04,What is the response time for a critical ticket?,DOC035;DOC046,30 minutes
+C05,How many characters must a password have?,DOC001;DOC021,12 characters
+C06,What should I do if I lose my company phone?,DOC025;DOC032;DOC041,immediately
+C07,How can I share a file with an external partner?,DOC044;DOC034,expiration date
+C08,How do I install a program that is not in the catalog?,DOC043;DOC010;DOC039,justification
+C09,How long do I have to recover a deleted file?,DOC045;DOC034,30 days
+C10,When are critical security patches installed?,DOC033;DOC053,72 hours
+C11,What happens on my first day at the company?,DOC049,laptop
+C12,How do I report a suspicious email?,DOC023;DOC016,report phishing button
